@@ -26,6 +26,9 @@ importers:
       '@tanstack/react-table':
         specifier: ^8.21.3
         version: 8.21.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@test-eyes/design-system':
+        specifier: workspace:*
+        version: link:../../libraries/design-system
       react:
         specifier: ^19.2.0
         version: 19.2.4
