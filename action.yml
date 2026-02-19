@@ -42,9 +42,8 @@ runs:
         mkdir -p data
         cp ${{ github.workspace }}/test-data.json "data/$(date +%Y-%m-%d)_${GITHUB_SHA:0:7}.json"
 
-        # Get and run aggregate script from main
-        git checkout origin/main -- apps/test-processing/scripts/aggregate.js
-        node apps/test-processing/scripts/aggregate.js data
+        # Run aggregate script from action version
+        node ${{ github.action_path }}/apps/test-processing/scripts/aggregate.js data
 
         # Commit and push
         git add data/

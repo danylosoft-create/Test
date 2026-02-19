@@ -11,7 +11,7 @@
 - [ ] Validate: `test -f` with clear error message
 - [ ] Parse: `node apps/example-app/scripts/parse-junit.js`
 - [ ] Git: config user, fetch/create data branch, commit JSON
-- [ ] Aggregate: `node apps/test-processing/scripts/aggregate.js`
+- [ ] Aggregate: `node apps/test-processing/scripts/aggregate.js data`
 
 ### 3. Add README
 - [ ] Installation guide in root README or separate doc
