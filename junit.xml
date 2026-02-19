@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="5" failures="1" errors="0" time="3.01340898">
+    <testsuite name="tests/math.test.js" timestamp="2026-02-19T16:48:26.010Z" hostname="runnervmieams" tests="5" failures="1" errors="0" skipped="0" time="3.01340898">
+        <testcase classname="tests/math.test.js" name="adds 1 + 2 to equal 3" time="0.001158319">
+        </testcase>
+        <testcase classname="tests/math.test.js" name="multiplies 3 * 4 to equal 12" time="3.003731998">
+        </testcase>
+        <testcase classname="tests/math.test.js" name="subtracts 10 - 4 to equal 6" time="0.000301267">
+        </testcase>
+        <testcase classname="tests/math.test.js" name="divides 20 / 5 to equal 4" time="0.006481906">
+            <failure message="expected 4 to be 5 // Object.is equality" type="AssertionError">
+AssertionError: expected 4 to be 5 // Object.is equality
+
+- Expected
++ Received
+
+- 5
++ 4
+
+ ❯ tests/math.test.js:19:18
+            </failure>
+        </testcase>
+        <testcase classname="tests/math.test.js" name="calculates 10 % 3 to equal 1" time="0.000213091">
+        </testcase>
+    </testsuite>
+</testsuites>
