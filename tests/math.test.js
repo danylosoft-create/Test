@@ -19,7 +19,3 @@ test('divides 20 / 5 to equal 4', () => {
 test('checks if array contains value', () => {
   expect([1, 2, 3]).toContain(2)
 })
-
-test('random test passes or fails', () => {
-  expect(Math.random() > 0.3).toBe(true)
-})
